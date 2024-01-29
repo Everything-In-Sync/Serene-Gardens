@@ -1,0 +1,41 @@
+@import "../base/imports";
+
+@media only screen and (max-width: 768px) {
+    .footer-right{
+        text-align: center;
+        // align-items: center;
+        margin-top: -3.9em;
+    }
+    .footer-image-container {
+        text-align: center;
+        display: flex; 
+        justify-content: center; // Center the content horizontally
+    }
+    .footer-image {
+        max-width: 300px;
+        margin-left: -60px;
+    }
+}
+
+footer{
+    border-top:3px $secondary-color solid;
+    background-color: $primary-color;
+}
+footer a{
+    color: $footer-text-color;
+}
+.footer-right-container{
+    line-height: 1.9em;
+    display: flex;
+    align-items: center;
+}
+.footer-image-container img{
+    // filter: brightness(0) invert(1);
+    max-width: 300px;
+}
+.copyright{
+    font-size: .8em;
+    text-align: center;
+    color: $background-color;
+    padding-bottom: 16px;
+}

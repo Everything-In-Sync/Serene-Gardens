@@ -1,0 +1,9 @@
+.email-address::before {
+    content: var(--email-address);
+}
+.phone-number::before {
+    content: var(--phone-number);
+}
+.physical-address::before {
+    content: var(--physical-address);
+}

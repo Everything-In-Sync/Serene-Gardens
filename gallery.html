@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Serene Gardens | Southern Pines, NC</title>
+    <link href="assets/scss/main.css" rel="stylesheet" />
+
+    <!-- Above the fold images to preload -->
+    <link rel="preload" href="assets/images/main-nav-logo.webp" as="image" />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff"
+      href="/assets/fonts/Poppins-Black.woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff"
+      href="/assets/fonts/Inter-Regular.woff"
+      crossorigin
+    />
+    <!-- End preload -->
+  </head>
+  <body>
+<!-- ------------------START DESKTOP NAVIGATION---------------------------- -->
+<nav>
+  <div class="navigation">
+    <a class="nav-logo" href="index.html" target="_self">
+      <img
+        src="assets/images/main-nav-logo.webp"
+        alt="Serene Gardens Landscaping"
+      />
+    </a>
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" target="_self" class="nav-link">About</a>
+    <div class="nav-item">
+        <a href="#" target="_self" class="nav-link services-link">Services</a>
+        <div class="dropdown-content">
+          <a href="lawn-care.html" target="_self">Lawn Care</a>
+          <a href="shrubbery.html" target="_self">Shrubbery</a>
+          <a href="mowing-edging.html" target="_self">Mowing & Edging</a>
+        </div>
+      </div>
+    <a href="#" target="_self" class="nav-link">Gallery</a>
+    <a href="contact.html" target="_self" class="nav-link">Contact</a>
+    <div class="mobile-menu">
+      <a href="#"
+        ><img
+          class="hamburger-icon"
+          src="assets/images/icons/hamburger.webp"
+          alt="Mobile Menu"
+      /></a>
+    </div>
+  </div>
+</nav>
+<!-- ------------------END DESKTOP NAVIGATION---------------------------- -->
+
+<!-- ------------------START MOBILE NAVIGATION---------------------------- -->
+<nav>
+  <div class="mobile-menu-expanded">
+    <div class="mobile-links">
+        <a href="index.html" class="mobile-nav-link">Home</a><br />
+        <a href="about.html" class="mobile-nav-link">About</a><br>
+        <a href="lawn-care.html" class="mobile-nav-link">Lawn Care</a><br>
+        <a href="shrubbery.html" class="mobile-nav-link">Shrubbery</a><br>
+        <a href="mowing-edging.html" class="mobile-nav-link">Mowing & Edging</a><br>
+      <a href="#" class="mobile-nav-link">Gallery</a> <br>
+      <a href="contact.html" class="mobile-nav-link">Contact</a><br>
+    </div>
+  </div>
+</nav>
+<!-- ------------------END MOBILE NAVIGATION---------------------------- -->
+
+    <!-- ------------------START HERO---------------------------- -->
+    <div class="hero">
+      <div class="hero-image-gallery">
+        <div class="hero-text">
+          <h1>Gallery</h1>
+          <!-- <p>Our Work</p> -->
+          <!-- <a href="contact.html"><button>Contact Us</button></a> -->
+        </div>
+      </div>
+    </div>
+    <!-- ------------------END HERO---------------------------- -->
+
+    <!-- ---------------------START GALLERY------------------------ -->
+    <div class="gallery-container">
+      <div class="gallery" id="gallery"></div>
+    </div>
+    <!-- START LIGHTBOX -->
+    <div id="lightbox" class="lightbox" style="display: none">
+      <span class="lightbox-close">&times;</span>
+      <img class="lightbox-content" />
+      <!-- <div class="lightbox-caption"></div> -->
+    </div>
+    <!-- END LIGHTBOX -->
+
+    <!-- ---------------------END GALLERY------------------------ -->
+
+ <!-- ------------------START FOOTER---------------------------- -->
+ <footer>
+  <div class="two-column-flex-container">
+    <div class="two-column-flex-item footer-image-container">
+      <a href="index.html"
+        ><img
+          class="footer-image"
+          src="assets/images/main-nav-logo.webp"
+          alt="Serene Gardens Landscaping"
+          loading="lazy"
+      /></a>
+    </div>
+    <div class="two-column-flex-item footer-right-container">
+      <div class="footer-right">
+        <a class="email-address" aria-label="Open up mail client"></a>
+        <br />
+        <a class="phone-number" aria-label="Call number"></a>
+        <br />
+        <a class="physical-address" target="_blank" aria-label="Open up google maps"></a>
+        <div class="social-icons">
+          <a href="#"
+            ><img
+              class="facebook"
+              src="assets/images/icons/facebook.svg"
+              alt="Facebook"
+              loading="lazy"
+          /></a>
+          <a href="#"
+            ><img
+              class="instagram"
+              src="assets/images/icons/instagram.svg"
+              alt="Instagram"
+              loading="lazy"
+          /></a>
+          <a href="#"
+            ><img
+              class="x"
+              src="assets/images/icons/x.svg"
+              alt="x"
+              loading="lazy"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>
+      Copyright © <span class="copyright-date"></span> | Designed by
+      <a href="https://sandhillsgeeks.com" target="_blank"
+        >Sandhills Geeks</a
+      >
+    </p>
+  </div>
+</footer>
+<!-- ------------------END FOOTER---------------------------- -->
+
+    <script defer src="assets/js/footer.js"></script>
+    <script type="module" src="assets/js/contact.js"></script>
+    <script src="assets/js/nav.js"></script>
+    <script type="module" src="assets/js/variables.js"></script>
+    <script defer type="module" src="assets/js/gallery.js"></script>
+  </body>
+</html>

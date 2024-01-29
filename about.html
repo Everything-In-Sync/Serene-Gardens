@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Serene Gardens | Southern Pines, NC</title>
+    <link href="assets/scss/main.css" rel="stylesheet" />
+
+    <!-- Above the fold images to preload -->
+    <link rel="preload" href="assets/images/main-nav-logo.webp" as="image" />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff"
+      href="/assets/fonts/Poppins-Black.woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff"
+      href="/assets/fonts/Inter-Regular.woff"
+      crossorigin
+    />
+    <!-- End preload -->
+  </head>
+  <body>
+    <!-- ------------------START DESKTOP NAVIGATION---------------------------- -->
+    <nav>
+      <div class="navigation">
+        <a class="nav-logo" href="index.html" target="_self">
+          <img
+            src="assets/images/main-nav-logo.webp"
+            alt="Serene Gardens Landscaping"
+          />
+        </a>
+
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#" target="_self" class="nav-link">About</a>
+        <div class="nav-item">
+          <a href="#" target="_self" class="nav-link services-link">Services</a>
+          <div class="dropdown-content">
+            <a href="lawn-care.html" target="_self">Lawn Care</a>
+            <a href="shrubbery.html" target="_self">Shrubbery</a>
+            <a href="mowing-edging.html" target="_self">Mowing & Edging</a>
+          </div>
+        </div>
+        <a href="gallery.html" target="_self" class="nav-link">Gallery</a>
+        <a href="contact.html" target="_self" class="nav-link">Contact</a>
+        <div class="mobile-menu">
+          <a href="#"
+            ><img
+              class="hamburger-icon"
+              src="assets/images/icons/hamburger.webp"
+              alt="Mobile Menu"
+          /></a>
+        </div>
+      </div>
+    </nav>
+    <!-- ------------------END DESKTOP NAVIGATION---------------------------- -->
+
+    <!-- ------------------START MOBILE NAVIGATION---------------------------- -->
+    <nav>
+      <div class="mobile-menu-expanded">
+        <div class="mobile-links">
+          <a href="index.html" class="mobile-nav-link">Home</a><br />
+          <a href="#" class="mobile-nav-link">About</a><br />
+          <a href="lawn-care.html" class="mobile-nav-link">Lawn Care</a><br />
+          <a href="shrubbery.html" class="mobile-nav-link">Shrubbery</a><br />
+          <a href="mowing-edging.html" class="mobile-nav-link"
+            >Mowing & Edging</a
+          ><br />
+          <a href="gallery.html" class="mobile-nav-link">Gallery</a> <br />
+          <a href="contact.html" class="mobile-nav-link">Contact</a><br />
+        </div>
+      </div>
+    </nav>
+    <!-- ------------------END MOBILE NAVIGATION---------------------------- -->
+
+    <!-- ------------------START HERO---------------------------- -->
+    <div class="hero">
+        <div class="hero-image-about">
+          <div class="hero-text">
+            <h1>About Us</h1>
+            <!-- <p>Welcome to Our Website</p> -->
+            <!-- <a href="contact.html"><button>Contact Us</button></a> -->
+          </div>
+        </div>
+      </div>
+    <!-- ------------------END HERO---------------------------- -->
+
+    <!-- START 2 COLUMN FLEXBOX - ABOUT US-->
+    <section class="two-column-flex-container about-us">
+        <div class="two-column-flex-item">
+            <h2>Rooted in Excellence</h2>
+            <p>
+                At Serene Gardens Landscaping, we are more than just a team; we are garden artisans who believe in transforming outdoor spaces into living canvases that reflect the beauty and uniqueness of each homeowner. With over two decades of green thumb experience, our passion for landscaping is evident in every lush lawn, vibrant flowerbed, and meticulously sculpted hedge.
+
+            </p>
+            <p>
+                We pride ourselves on our commitment to sustainability and eco-friendly practices, ensuring that every project not only enhances your property but also contributes positively to the environment. Our dedicated crew is not just skilled in the art of landscaping; we are caretakers of your outdoor sanctuary, curators of a greener tomorrow.
+            </p>
+        </div>
+        <div class="two-column-flex-item">
+            <img class= "about-image" src="assets/images/small gallery/front of large home with red plants.webp">
+            <p>
+                Elevate the charm of your home with Serene Gardens’ landscaping services. Our artistic touch extends the elegance of your interiors to the outdoors, ensuring a seamless blend of comfort and nature. Let us sculpt your gardens into verdant retreats where memories are nurtured, and life flourishes. Start a conversation with us today to cultivate your vision of an idyllic outdoor haven.
+            </p>
+            <a href="#cta"><button>Start Today</button></a>
+        </div>
+    </section>
+    <!-- END 2 COLUMN FLEXBOX - ABOUT US-->
+    
+
+    <!-- --START FULL WIDTH BANNER-- -->
+
+    <section class="full-width-banner">
+      <div>
+        <h3>Enhance Your Outdoor Living</h3>
+        <p>
+          Elevate your home with premier landscaping services tailored to create
+          your perfect outdoor sanctuary.
+        </p>
+        <a href="#cta"><button>Upgrade Today</button></a>
+      </div>
+    </section>
+
+    <!-- --END FULL WIDTH BANNER-- -->
+
+    <!-- --START TITLE WITH SUBTITLE-- -->
+
+    <section class="title-subtitle">
+      <div class="align-center">
+        <h2>Why Choose Us?</h2>
+        <!-- <h4>Learn More</h4> -->
+      </div>
+    </section>
+
+    <!-- --END TITLE WITH SUBTITLE-- -->
+
+    <!-- START 3 COLUMN FLEX CONTAINER - REASONS-->
+
+    <section class="three-column-flex-container reasons-container">
+        <div class="three-column-flex-item reasons fade-in-one" id="fade-in">
+            <svg class= "reasons-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+            <h3>Experience</h3>
+            <h5>Decades of Green Thumbs</h5>
+            <p>
+                Our seasoned experts bring over 20 years of horticultural prowess, transforming ordinary yards into extraordinary landscapes. We're not just lawn experts; we're passionate stewards of your green space
+            </p>
+        </div>
+
+        <div class="three-column-flex-item reasons fade-in-two" id="fade-in">
+            <svg class= "reasons-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2l0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4l0 0c19.8 27.1 39.7 54.4 49.2 86.2H272zM192 512c44.2 0 80-35.8 80-80V416H112v16c0 44.2 35.8 80 80 80zM112 176c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z"/></svg>
+            <h3>Solutions</h3>
+            <h5>Tailored Landscaping Mastery</h5>
+            <p>
+                Every garden has its own soul, and we listen to it. Our landscaping solutions are crafted to fit the unique contour and personality of your property, ensuring your outdoor space is a reflection of you.
+            </p>
+        </div>
+        <div class="three-column-flex-item reasons fade-in-three" id="fade-in">
+            <svg class= "reasons-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L550.2 352H592c26.5 0 48-21.5 48-48V176c0-26.5-21.5-48-48-48H516h-4-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48H48c-26.5 0-48 21.5-48 48V304c0 26.5 21.5 48 48 48H156.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123z"/></svg>
+            <h3>Reliability</h3>
+            <h5>Consistently Excellent</h5>
+            <p>
+                In the world of landscaping, we are the steadfast oaks. Our commitment to consistency and excellence ensures that every blade of grass, every trimmed hedge is a testament to lasting quality
+            </p>
+        </div>
+    </section>
+
+    <!-- END 3 COLUMN FLEX CONTAINER - REASONS-->
+
+    <!----------------START SMALL GALLERY------------------------->
+
+    <section class="full-width-banner">
+      <div class="small-gallery">
+        <div class="image-container">
+          <img
+            src="assets/images/small gallery/front of large home with red plants.webp"
+            loading="lazy"
+            alt="front of large home with red plants"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            src="assets/images/small gallery/large home with large porch.webp"
+            loading="lazy"
+            alt="large home with large porch"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            src="assets/images/small gallery/large white home with large maroon tree.webp"
+            loading="lazy"
+            alt="large home with large maroon tree"
+          />
+        </div>
+        <div class="image-container">
+          <img
+            src="assets/images/small gallery/modern back yard with staircase.webp"
+            loading="lazy"
+            alt="modern back yard with staircase"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!----------------END SMALL GALLERY------------------------->
+
+
+    <!----START CALL TO ACTION---->
+
+    <section class="two-column-flex-container section-contact cta" id="cta">
+      <div class="two-column-flex-item section-contact-links">
+        <h2>Get Your Free Landscaping Estimate</h2>
+        <p>
+          Transform your outdoor spaces into a haven of beauty and tranquility.
+          Our expert team is ready to bring your garden dreams to life. Connect
+          with us today for a complimentary, no-obligation estimate. Let's
+          cultivate your ideal landscape together.
+        </p>
+        <div class="contact-info">
+          <a class="email-address"></a>
+          <br />
+          <a class="phone-number"></a>
+          <br />
+          <a class="physical-address" target="_blank"></a>
+          <br />
+          <p>Follow us for inspiration:</p>
+          <div class="social-icons-black">
+            <a href="#"
+              ><img
+                class="facebook"
+                src="assets/images/icons/facebook.svg"
+                alt="Facebook"
+                loading="lazy"
+            /></a>
+            <a href="#"
+              ><img
+                class="instagram"
+                src="assets/images/icons/instagram.svg"
+                alt="Instagram"
+                loading="lazy"
+            /></a>
+            <a href="#"
+              ><img
+                class="x"
+                src="assets/images/icons/x.svg"
+                alt="x"
+                loading="lazy"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="two-column-flex-item">
+        <form class="contact-form" name="contact">
+          <p>
+            <label for="name"
+              >Name <span class="required-asterisk">*</span></label
+            ><br />
+            <input
+              class="text-entry"
+              required
+              type="text"
+              name="name"
+              id="name"
+            />
+          </p>
+          <p>
+            <label for="email"
+              >Email<span class="required-asterisk">*</span></label
+            ><br />
+            <input
+              class="text-entry"
+              required
+              type="email"
+              name="email"
+              id="email"
+            />
+          </p>
+          <p>
+            <label for="message"
+              >Message<span class="required-asterisk">*</span></label
+            ><br />
+            <textarea
+              class="message-entry"
+              required
+              name="message"
+              id="message"
+            ></textarea>
+          </p>
+          <p class="submit-btn-container">
+            <input class="submit-button" type="submit" value="Send" />
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!----END CALL TO ACTION---->
+
+    <!-- ------------------START FOOTER---------------------------- -->
+    <footer>
+      <div class="two-column-flex-container">
+        <div class="two-column-flex-item footer-image-container">
+          <a href="index.html"
+            ><img
+              class="footer-image"
+              src="assets/images/main-nav-logo.webp"
+              alt="Serene Gardens Landscaping"
+              loading="lazy"
+          /></a>
+        </div>
+        <div class="two-column-flex-item footer-right-container">
+          <div class="footer-right">
+            <a class="email-address" aria-label="Open up mail client"></a>
+            <br />
+            <a class="phone-number" aria-label="Call number"></a>
+            <br />
+            <a
+              class="physical-address"
+              target="_blank"
+              aria-label="Open up google maps"
+            ></a>
+            <div class="social-icons">
+              <a href="#"
+                ><img
+                  class="facebook"
+                  src="assets/images/icons/facebook.svg"
+                  alt="Facebook"
+                  loading="lazy"
+              /></a>
+              <a href="#"
+                ><img
+                  class="instagram"
+                  src="assets/images/icons/instagram.svg"
+                  alt="Instagram"
+                  loading="lazy"
+              /></a>
+              <a href="#"
+                ><img
+                  class="x"
+                  src="assets/images/icons/x.svg"
+                  alt="x"
+                  loading="lazy"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © <span class="copyright-date"></span> | Designed by
+          <a href="https://robertkososki.com" target="_blank">Robert Kososki</a>
+        </p>
+      </div>
+    </footer>
+    <!-- ------------------END FOOTER---------------------------- -->
+
+    <script defer src="assets/js/footer.js"></script>
+    <script type="module" src="assets/js/contact.js"></script>
+    <script src="assets/js/nav.js"></script>
+    <script type="module" src="assets/js/variables.js"></script>
+    <script type="module" src="assets/js/sections.js"></script>
+  </body>
+</html>

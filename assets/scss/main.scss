@@ -1,0 +1,14 @@
+@use 'base/imports';
+@use 'layout/sections';
+@use 'layout/layout';
+@use 'pages/contact';
+@use 'pages/home';
+@use 'components/social';
+@use 'components/navigation';
+@use 'components/hero';
+@use 'components/button';
+@use 'components/form';
+@use 'components/gallery';
+@use 'components/footer';
+
+// Yes, you do need to have the correct file path

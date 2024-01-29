@@ -1,0 +1,16 @@
+@import '../base/imports';
+
+button, .submit-button{
+    text-align: center;
+    padding: 5px 30px;
+    font-size: 1.3em;
+    border: 4px solid $secondary-color;
+    border-radius: 4px;
+    background-color: $background-color;
+    cursor: pointer;
+    // text-transform: uppercase;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+button:hover, .submit-button:hover{
+    transform: scale(1.1); /* Scale up the button size on hover */
+}

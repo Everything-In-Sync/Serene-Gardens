@@ -1,0 +1,419 @@
+@import '../base/imports';
+
+// Table of Contents: (just cmd +f)
+//     Flexbox
+//         Two Column Flexbox
+//          -Image to Left of Header, Text, and Button
+//          -Two Row Flexbox
+//         Three Column Flexbox
+//          -Services Section
+//          -Reviews Section
+//     Full Width Banner
+//     Small Gallery
+//     Contact Information with Form
+//     Call to Action with Form
+//     Horizontal Image with Content
+
+
+
+// ----------------START Flexbox----------------
+
+    // ------------START Two Column Flexbox-------------
+    
+        .two-column-flex-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .two-column-flex-item{
+            flex: 1;
+            padding: 70px;
+            // max-width: 80%;
+            // overflow: hidden;
+        }
+        @media (max-width: 768px){
+            .two-column-flex-container{
+                flex-direction: column;
+            }
+            .two-column-flex-item{
+                justify-content: center;
+                align-items: center;
+                // text-align: center;
+                max-width: 90%;
+                padding: 50px 10px 50px 10px;
+            }
+        }
+
+        // ------------START Image to Left of Header, Text, and Button-------------
+            @media (max-width: 768px){
+                .section-image-text-image{
+                    margin-left: -10% !important;
+                }
+                .section-image-text-text{
+                    margin-right: -10% !important;
+                }
+
+            }
+            .section-image-text{
+                padding: 70px 0px 70px 0px;
+                
+                align-items: center;
+            }
+            .section-image-text-image img{
+                margin-left: 10%;
+                max-width: 80vw;
+                height: auto;
+                box-shadow: $box-shadow;
+                border-color: $primary-color;
+                border-radius: 5px;
+            }
+            .section-image-text-text{
+                margin-right: 10%;
+            }
+        // ------------END Image to Left of Header, Text, and Button-------------
+
+        // ------------START Two Row Flexbox-------------
+            .row-flex-container{
+                display:flex;
+                // align-items: center;
+                justify-content: center;
+                flex-direction: row;
+            }
+            .flex-row{
+                text-align: center;
+            }
+            .flex-row img{
+                max-width: 50%;
+            }
+
+
+        // ------------END Two Row Flexbox-------------
+
+    // ------------END Two Column Flexbox-------------
+
+    // -------Start Three Column Flexbox--------------
+        .three-column-flex-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .three-column-flex-item img{
+            height: 200px;
+            box-shadow: $box-shadow;
+            border-radius: 5px;
+        }
+        .three-column-flex-item{
+            flex: 1;
+            border-radius: 5px;
+            padding: 35px;
+            margin:25px;
+            text-align: center;        
+        }
+        .three-column-flex-item p{
+            text-align: left;
+        }
+        @media (max-width: 768px){
+            .three-column-flex-container{
+                flex-direction: column;
+            }
+            .three-column-flex-item{
+                justify-content: center;
+                align-items: center;
+                max-width: 90%;
+            }
+        }
+        // ------------START Services Section-------------
+
+            .services{
+                padding: 0px 0px 70px 0px;
+            }
+            .services img{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+
+
+        // ------------END Services Section-------------
+
+        // ------------START Reviews Section-------------
+            .reviews img{
+                height: 2.7em;
+                box-shadow: none;
+            }
+            .reviews{                
+                padding: 0px 20px 120px 20px;
+                border-bottom: 3px solid $secondary-color;
+            }
+            .reviewer{
+                color:$primary-color;
+                text-align: center !important;
+            }
+            .review-location{
+                font-size: .8em;
+                text-align: center !important;
+            }
+            .star{
+                color:$secondary-color;
+            }
+            .review{
+                box-shadow: $box-shadow;
+            }
+            // .reviews-one, .reviews-two, .reviews-three{
+            //     box-shadow: $box-shadow;
+            // }
+            .reviews-one{
+                opacity: 0;
+                transition: opacity 1s ease-in-out;
+            }
+            .reviews-two{
+                opacity: 0;
+                transition: opacity 2s ease-in-out;
+            }
+            .reviews-three{
+                opacity: 0;
+                transition: opacity 3s ease-in-out;
+            }
+            .fade-in-view{
+                opacity: 1;
+            }
+
+    // ------------END Reviews Section-------------
+
+    // -------End Three Column Flexbox--------------
+    
+// --------Start Full Width Banner---------------
+
+.full-width-banner{
+    background-color: $primary-color;
+    background-image: url($primary-transparent-texture); 
+    background-attachment: fixed; 
+    background-repeat: repeat;
+    color: $white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 65px;
+    border-top: solid 3px $secondary-color;
+    border-bottom: solid 3px $secondary-color;
+}
+
+// --------End Full Width Banner---------------
+
+// --------Start Small Gallery---------------
+
+.small-gallery {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  .image-container {
+    border-radius: 5px; 
+    overflow: hidden; // Ensures the inner img border radius is clipped
+    box-shadow: $box-shadow; 
+    line-height: 0;
+    margin: 10px; 
+  }
+  .small-gallery img {
+    height: 200px;
+    width: 300px;
+    display: block; 
+  }
+  
+// --------End Small Gallery---------------
+
+// ----------------END Flexbox----------------
+
+// --------Start Title with Subtitle---------------
+
+.title-subtitle{
+    padding: 70px 0px;
+}
+
+// --------End Title with Subtitle---------------
+
+// --------Start Contact Information with Form---------------
+@media (max-width: 768px){
+    .section-contact {
+        padding:20px !important;
+    }
+    .section-contact-links{
+        text-align: center;
+    }
+    .submit-btn-container{
+        text-align: center;
+    }
+}
+.section-contact{
+    padding: 70px
+}
+
+// --------End Contact Information with Form---------------
+
+// --------Start Call to Action with Form---------------
+
+
+
+// --------End Call to Action with Form---------------
+
+// --------Start Individual Service---------------
+@media (max-width: 768px){
+    .individual-service p {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+.individual-service{
+    padding: 70px 20px 70px 20px;
+}
+.individual-service img{
+    box-shadow: $box-shadow;
+    border-radius: 5px;
+}
+.individual-service p{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+// --------End Individual Service---------------
+
+// --------Start Icon with Text---------------
+@media (max-width: 768px){
+    .icon-with-text {
+        margin: 0 auto;
+    }
+    .icon-with-text-icon{
+        min-width: 40px !important; 
+        max-width: 40px !important;
+    }
+}
+.icon-with-text{
+    padding: 0px 20px 70px 20px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.individual-icon-with-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon-with-text-icon{
+    margin-right: 20px;
+    min-width: 60px;
+    max-width: 60px;
+    fill:$primary-color;
+    border: solid 3px $secondary-color;
+    border-radius: 50%;
+}
+.icon-with-text-one{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.icon-with-text-two{
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+.icon-with-text-three{
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+}
+.icon-with-text-four{
+    opacity: 0;
+    transition: opacity 4s ease-in-out;
+}
+
+// --------End Icon with Text---------------
+
+// --------Start About Us---------------
+.about-us{
+    align-items: center;
+}
+// --------End About Us---------------
+
+// --------Start Why Choose Us---------------
+.reasons h5{
+    color: $primary-color;
+
+}
+// --------End Why Choose Us---------------
+
+// --------Start Universal Fade In Transition-----------
+.fade-in-one{
+    opacity: 0;
+    transition: opacity 1s ease-in-out !important;
+}
+.fade-in-two{
+    opacity: 0;
+    transition: opacity 2s ease-in-out !important;
+}
+.fade-in-three{
+    opacity: 0;
+    transition: opacity 3s ease-in-out !important;
+}
+.fade-in-four{
+    opacity: 0;
+    transition: opacity 4s ease-in-out !important;
+}
+.fade-in-five{
+    opacity: 0;
+    transition: opacity 5s ease-in-out !important;
+}
+.fade-in-view{
+    opacity: 1 !important;
+}
+// --------End Universal Fade In Transition-----------
+
+
+// .reasons-svg{
+//     min-width: 100px;
+//     min-height: 100px;
+//     max-height: 150px;
+//     max-width: 150px;
+//     fill: $link-color;
+//     justify-content: baseline;
+// }
+
+
+
+.reasons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 20px 70px 20px;
+}
+
+.reasons-svg {
+    margin-bottom: 15px;
+    width: 70px;
+    height: 70px;
+    fill: $link-color;
+}
+
+.reasons-title {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.about-image{
+    box-shadow: $box-shadow;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+// .fade-in {
+//     /* initial state, e.g., opacity: 0 */
+//     opacity: 0;
+//     transition: opacity 1s ease;
+//   }
+  
+//   .fade-in-view {
+//     /* final state, e.g., opacity: 1 */
+//     opacity: 1;
+//     /* No need to set animation-delay here, it's set inline by JavaScript */
+//   }
+  

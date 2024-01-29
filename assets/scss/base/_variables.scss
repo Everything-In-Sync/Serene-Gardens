@@ -1,0 +1,75 @@
+// Table of Contents: (just cmd +f)
+//     Color Variables
+//     Font Variables
+//     CSS Javascript Variables
+//     Hero Image Variables
+//     Background Image Variables
+//     Content Injection Variables
+//     Styling Variables
+
+
+
+
+
+//----------START Color Variables-----------
+$primary-color: #176E00;
+$secondary-color: #fec05f;
+$link-color: #80AC31;
+$white: #ffffff;
+$black: #000000;
+$background-color:#ffffff;
+$footer-text-color: #ffffff;
+$required-red: #C0392B;
+
+// **Don't Forget to Change the CSS Javascript variables as well
+
+//----------END Color Variables-----------
+
+
+
+//----------START Font Variables-----------
+$heading-font: 'Poppins', 'Sans-Serif';
+$secondary-font: 'Inter', 'Sans-Serif';
+//----------END Font Variables-----------
+
+
+
+// ----------START CSS Javascript Variables-----------
+:root {
+    --primary-color: #176E00;
+    --secondary-color: #fec05f;
+    --background-color: #ffffff;
+}
+// **Don't Forget to Change the SCSS variables as well 
+
+// ----------END CSS Javascript Variables-----------
+
+
+
+// ----------START Hero Image Variables-------------------------
+// $logo: '/assets/images/main-nav-logo.webp';
+$hero-image-index: '/assets/images/images/lawn-mower.webp';
+$hero-image-gallery: '/assets/images/images/vast landscape with many trees.webp';
+$hero-image-contact: '/assets/images/images/man weed wacking.webp';
+$hero-image-services: '/assets/images/images/grass.webp';
+$hero-image-about: '/assets/images/images/person mowing yard.webp';
+// ----------END Hero Image Variables-------------------------
+
+// ----------START Background Image Variables-------------------------
+$primary-transparent-texture: '/assets/images/graphics/transparent-grass.webp';
+// ----------END Background Image Variables-------------------------
+
+// ----------START Content Injection Variables-------------------------
+:root {
+    --email-address: 'info@serenegardens.com';
+    --phone-number: '(910) 587-3947';
+    --physical-address: '1117 Northern Bright Dr. Southern Pines, NC - 28387';
+    // ** DO NOT FORGET TO CHANGE IN VARIABLES.JS FILE AS WELL **
+}
+// ----------END Content Injection Variables-------------------------
+
+// ----------START Styling Variables Variables-------------------------
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+0 10px 20px rgba(0, 0, 0, 0.2);
+$contact-form-border-radius: 10px;
+// ----------END Styling Variables Variables-------------------------
