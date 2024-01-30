@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // Adds the transitions when the individual icon with text section comes into viewport
+
 document.addEventListener("DOMContentLoaded", function() {
 
     var iconTextOne = document.querySelector('.icon-with-text-one');
@@ -49,23 +50,17 @@ document.addEventListener("DOMContentLoaded", function() {
     var fadeInOne = document.querySelector('.fade-in-one');
     var fadeInTwo = document.querySelector('.fade-in-two');
     var fadeInThree = document.querySelector('.fade-in-three');
-    var fadeInFour = document.querySelector('.fade-in-four');
-    var fadeInFive = document.querySelector('.fade-in-five');
     var observer = new IntersectionObserver(function(entries) {
         if(entries[0].isIntersecting === true) {
             fadeInOne.classList.add('fade-in-view');
             fadeInTwo.classList.add('fade-in-view');
             fadeInThree.classList.add('fade-in-view');
-            fadeInFour.classList.add('fade-in-view');
-            fadeInFive.classList.add('fade-in-view');
         }
     }, { threshold: [0] });
 
     observer.observe(fadeInOne);
     observer.observe(fadeInTwo);
     observer.observe(fadeInThree);
-    observer.observe(fadeInFour);
-    observer.observe(fadeInFive);
 
 });
 
@@ -91,3 +86,4 @@ document.addEventListener("DOMContentLoaded", function() {
 //     fadeInElements.forEach(el => observer.observe(el));
 //   });
   
+

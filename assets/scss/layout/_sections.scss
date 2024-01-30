@@ -323,8 +323,21 @@
 // --------End Icon with Text---------------
 
 // --------Start About Us---------------
+@media(max-width:768px){
+    .about-item-text{
+        padding-bottom: 10px;
+    }
+    .about-item-image-text{
+        padding-top:0px;
+    };
+}
 .about-us{
     align-items: center;
+}
+.about-image{
+    box-shadow: $box-shadow;
+    border-radius: 5px;
+
 }
 // --------End About Us---------------
 
