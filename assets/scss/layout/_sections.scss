@@ -346,6 +346,26 @@
     color: $primary-color;
 
 }
+
+.reasons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 20px 70px 20px;
+}
+
+.reasons-svg {
+    margin-bottom: 15px;
+    width: 70px;
+    height: 70px;
+    fill: $link-color;
+}
+
+.reasons-title {
+    margin: 0;
+    padding-top: 10px;
+}
 // --------End Why Choose Us---------------
 
 // --------Start Universal Fade In Transition-----------
@@ -374,59 +394,3 @@
 }
 // --------End Universal Fade In Transition-----------
 
-
-// .reasons-svg{
-//     min-width: 100px;
-//     min-height: 100px;
-//     max-height: 150px;
-//     max-width: 150px;
-//     fill: $link-color;
-//     justify-content: baseline;
-// }
-
-
-
-.reasons-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 10px 20px 70px 20px;
-}
-
-.reasons-svg {
-    margin-bottom: 15px;
-    width: 70px;
-    height: 70px;
-    fill: $link-color;
-}
-
-.reasons-title {
-    margin: 0;
-    padding-top: 10px;
-}
-
-.about-image{
-    box-shadow: $box-shadow;
-    border-radius: 5px;
-}
-
-
-
-
-
-
-
-
-// .fade-in {
-//     /* initial state, e.g., opacity: 0 */
-//     opacity: 0;
-//     transition: opacity 1s ease;
-//   }
-  
-//   .fade-in-view {
-//     /* final state, e.g., opacity: 1 */
-//     opacity: 1;
-//     /* No need to set animation-delay here, it's set inline by JavaScript */
-//   }
-  

@@ -3,13 +3,12 @@
 @media only screen and (max-width: 768px) {
     .footer-right{
         text-align: center;
-        // align-items: center;
         margin-top: -3.9em;
     }
     .footer-image-container {
         text-align: center;
         display: flex; 
-        justify-content: center; // Center the content horizontally
+        justify-content: center;
     }
     .footer-image {
         max-width: 300px;

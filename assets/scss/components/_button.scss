@@ -8,9 +8,8 @@ button, .submit-button{
     border-radius: 4px;
     background-color: $background-color;
     cursor: pointer;
-    // text-transform: uppercase;
-    transition: transform 0.3s ease; /* Add transition effect */
+    transition: transform 0.3s ease; 
 }
 button:hover, .submit-button:hover{
-    transform: scale(1.1); /* Scale up the button size on hover */
+    transform: scale(1.1); 
 }

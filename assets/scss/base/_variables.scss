@@ -20,9 +20,7 @@ $black: #000000;
 $background-color:#ffffff;
 $footer-text-color: #ffffff;
 $required-red: #C0392B;
-
-// **Don't Forget to Change the CSS Javascript variables as well
-
+// **Don't Forget to Change the CSS variables as well 
 //----------END Color Variables-----------
 
 
@@ -41,7 +39,6 @@ $secondary-font: 'Inter', 'Sans-Serif';
     --background-color: #ffffff;
 }
 // **Don't Forget to Change the SCSS variables as well 
-
 // ----------END CSS Javascript Variables-----------
 
 
@@ -63,8 +60,8 @@ $primary-transparent-texture: '/assets/images/graphics/transparent-grass.webp';
 :root {
     --email-address: 'info@serenegardens.com';
     --phone-number: '(910) 587-3947';
-    --physical-address: '1117 Northern Bright Dr. Southern Pines, NC - 28387';
-    // ** DO NOT FORGET TO CHANGE IN VARIABLES.JS FILE AS WELL **
+    --physical-address: '1600 Pennsylvania Avenue NW, Washington, DC 20500';
+    //You also need to change this information in the js variables file
 }
 // ----------END Content Injection Variables-------------------------
 

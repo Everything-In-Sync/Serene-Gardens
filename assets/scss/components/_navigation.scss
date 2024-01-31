@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     border-bottom: solid 3px $secondary-color;
-    // border-bottom: solid 3px;
 }
 .mobile-menu {
     display: none;
@@ -27,7 +26,6 @@
     color: #ffffff;
     text-decoration: none;
     font-size: 1em;
-    // text-transform: uppercase;
 }
 
 // Mobile Navigation------------------------------
@@ -94,28 +92,3 @@
     display: block;
   }
   // ---------------End Dropdown Menu ---------------
-
-  /* Mobile Navigation */
-// .mobile-links {
-//     display: flex;
-//     flex-direction: column;
-//   }
-  
-//   .nav-item {
-//     position: relative;
-//   }
-  
-//   .dropdown-content {
-//     display: none; /* initially hidden on mobile */
-//     position: static; /* override the absolute positioning for mobile */
-//     box-shadow: none; /* optional: remove the box-shadow for mobile */
-//     background-color: transparent; /* optional: make the background transparent */
-//   }
-  
-//   /* Style for dropdown links on mobile */
-//   .dropdown-content a {
-//     padding: 10px; /* adjust padding as needed */
-//     color: #ffffff; /* match the color scheme of your mobile nav */
-//     background-color: $primary-color; /* background color for dropdown items */
-//     border: none; /* remove borders if any */
-//   }

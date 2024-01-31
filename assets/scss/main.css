@@ -7,7 +7,7 @@
 :root {
   --email-address: "info@serenegardens.com";
   --phone-number: "(910) 587-3947";
-  --physical-address: "1117 Northern Bright Dr. Southern Pines, NC - 28387";
+  --physical-address: "1600 Pennsylvania Avenue NW, Washington, DC 20500";
 }
 
 @font-face {
@@ -71,7 +71,7 @@
 :root {
   --email-address: "info@serenegardens.com";
   --phone-number: "(910) 587-3947";
-  --physical-address: "1117 Northern Bright Dr. Southern Pines, NC - 28387";
+  --physical-address: "1600 Pennsylvania Avenue NW, Washington, DC 20500";
 }
 
 @font-face {
@@ -421,6 +421,26 @@
   color: #176E00;
 }
 
+.reasons-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px 20px 70px 20px;
+}
+
+.reasons-svg {
+  margin-bottom: 15px;
+  width: 70px;
+  height: 70px;
+  fill: #80AC31;
+}
+
+.reasons-title {
+  margin: 0;
+  padding-top: 10px;
+}
+
 .fade-in-one {
   opacity: 0;
   transition: opacity 1s ease-in-out !important;
@@ -450,31 +470,6 @@
   opacity: 1 !important;
 }
 
-.reasons-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 10px 20px 70px 20px;
-}
-
-.reasons-svg {
-  margin-bottom: 15px;
-  width: 70px;
-  height: 70px;
-  fill: #80AC31;
-}
-
-.reasons-title {
-  margin: 0;
-  padding-top: 10px;
-}
-
-.about-image {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-}
-
 :root {
   --primary-color: #176E00;
   --secondary-color: #fec05f;
@@ -484,7 +479,7 @@
 :root {
   --email-address: "info@serenegardens.com";
   --phone-number: "(910) 587-3947";
-  --physical-address: "1117 Northern Bright Dr. Southern Pines, NC - 28387";
+  --physical-address: "1600 Pennsylvania Avenue NW, Washington, DC 20500";
 }
 
 @font-face {
@@ -610,7 +605,7 @@ a, li, ul, button, form, input, textarea {
 :root {
   --email-address: "info@serenegardens.com";
   --phone-number: "(910) 587-3947";
-  --physical-address: "1117 Northern Bright Dr. Southern Pines, NC - 28387";
+  --physical-address: "1600 Pennsylvania Avenue NW, Washington, DC 20500";
 }
 
 @font-face {
@@ -674,7 +669,7 @@ a, li, ul, button, form, input, textarea {
 :root {
   --email-address: "info@serenegardens.com";
   --phone-number: "(910) 587-3947";
-  --physical-address: "1117 Northern Bright Dr. Southern Pines, NC - 28387";
+  --physical-address: "1600 Pennsylvania Avenue NW, Washington, DC 20500";
 }
 
 @font-face {
@@ -764,7 +759,7 @@ a, li, ul, button, form, input, textarea {
 :root {
   --email-address: "info@serenegardens.com";
   --phone-number: "(910) 587-3947";
-  --physical-address: "1117 Northern Bright Dr. Southern Pines, NC - 28387";
+  --physical-address: "1600 Pennsylvania Avenue NW, Washington, DC 20500";
 }
 
 @font-face {
@@ -909,7 +904,6 @@ a, li, ul, button, form, input, textarea {
   display: block;
 }
 
-/* Mobile Navigation */
 :root {
   --primary-color: #176E00;
   --secondary-color: #fec05f;
@@ -919,7 +913,7 @@ a, li, ul, button, form, input, textarea {
 :root {
   --email-address: "info@serenegardens.com";
   --phone-number: "(910) 587-3947";
-  --physical-address: "1117 Northern Bright Dr. Southern Pines, NC - 28387";
+  --physical-address: "1600 Pennsylvania Avenue NW, Washington, DC 20500";
 }
 
 @font-face {
@@ -1041,7 +1035,7 @@ a, li, ul, button, form, input, textarea {
 :root {
   --email-address: "info@serenegardens.com";
   --phone-number: "(910) 587-3947";
-  --physical-address: "1117 Northern Bright Dr. Southern Pines, NC - 28387";
+  --physical-address: "1600 Pennsylvania Avenue NW, Washington, DC 20500";
 }
 
 @font-face {
@@ -1104,11 +1098,11 @@ button, .submit-button {
   border-radius: 4px;
   background-color: #ffffff;
   cursor: pointer;
-  transition: transform 0.3s ease; /* Add transition effect */
+  transition: transform 0.3s ease;
 }
 
 button:hover, .submit-button:hover {
-  transform: scale(1.1); /* Scale up the button size on hover */
+  transform: scale(1.1);
 }
 
 :root {
@@ -1120,7 +1114,7 @@ button:hover, .submit-button:hover {
 :root {
   --email-address: "info@serenegardens.com";
   --phone-number: "(910) 587-3947";
-  --physical-address: "1117 Northern Bright Dr. Southern Pines, NC - 28387";
+  --physical-address: "1600 Pennsylvania Avenue NW, Washington, DC 20500";
 }
 
 @font-face {
@@ -1272,7 +1266,7 @@ button:hover, .submit-button:hover {
 :root {
   --email-address: "info@serenegardens.com";
   --phone-number: "(910) 587-3947";
-  --physical-address: "1117 Northern Bright Dr. Southern Pines, NC - 28387";
+  --physical-address: "1600 Pennsylvania Avenue NW, Washington, DC 20500";
 }
 
 @font-face {

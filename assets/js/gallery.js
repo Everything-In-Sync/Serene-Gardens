@@ -1,7 +1,4 @@
 
-
-
-
 document.addEventListener('DOMContentLoaded', (event) => {
     const images = ['Backyard with barn and red tree.webp', 'lawn mower and sky.webp', 'Stone path with shrubs.webp', 'brick and dirt path with shrubs.webp', 'front of large home with red plants.webp', 'vast landscape with many trees.webp', 'multiple homes sharing a large backyard.webp', 'grey walkway with large landscaped walls.webp', 'large white home with large maroon tree.webp', 'tall home with small bed of shrubs.webp', 'modern back yard with staircase.webp', 'large yard with many trees.webp','large backyard with a pool.webp', 'beautiful landscape with many trees and shrubs.webp', 'large home with large porch.webp', 'small red home.webp'];
     const gallery = document.getElementById('gallery');
@@ -34,17 +31,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
-
-
-
-
-
-
-// You can use pillow to have images after optimization save to individual directories based on which website you are using
-// For example print('which website?') 
-// input()=website 
-    // if website = whatever then move optimization into that folder
-
-    // You need to dynamically search for the gallery images on each load
-    //you can even use cron jobs to run the optimization and git upload every day at a certain time
-    //

@@ -1,5 +1,3 @@
-// Adds the transitions when the reviews section comes into viewport
-
 document.addEventListener("DOMContentLoaded", function() {
 
     var revOne = document.querySelector('.reviews-one');
@@ -19,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-// Adds the transitions when the individual icon with text section comes into viewport
 
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -43,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-// Yes future Rob this is redundant but you tried looping through everything under a single class it does not give you the horizontal transition you are looking for
 
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -64,26 +60,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-
-
-
-
-//This works but does not differentiate transitions between divs, useful for single column sections not multi
-
-// document.addEventListener("DOMContentLoaded", function() {
-//     const fadeInElements = document.querySelectorAll('.fade-in');
-  
-//     var observer = new IntersectionObserver(function(entries, observer) {
-//       entries.forEach((entry, index) => {
-//         if(entry.isIntersecting) {
-//           entry.target.style.animationDelay = `${index + 1}s`;
-//           entry.target.classList.add('fade-in-view');
-//           observer.unobserve(entry.target);
-//         }
-//       });
-//     }, { threshold: [0] });
-  
-//     fadeInElements.forEach(el => observer.observe(el));
-//   });
-  
 
